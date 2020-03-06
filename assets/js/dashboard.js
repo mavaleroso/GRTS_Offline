@@ -136,3 +136,5 @@ function barGraph() {
     });
     chart.update();
   }
+
+  

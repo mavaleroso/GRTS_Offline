@@ -80,7 +80,6 @@ class Profile extends CI_Controller {
 		);
 		$where = array('user_id' => $id, );
 		$this->Model_user->update($data, $where);
-
 	}
 
 	public function match_password() {

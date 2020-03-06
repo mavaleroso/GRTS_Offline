@@ -871,7 +871,7 @@ input[type=search] {
 }
 
 .loc-dir button {
-  height: -webkit-fill-available;
+  height: 30px;
 }
 
 #myModal3 .close{

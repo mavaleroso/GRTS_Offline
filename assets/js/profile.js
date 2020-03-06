@@ -266,7 +266,11 @@ $('#save-location').off().on('click', function() {
 	        
 	        $('.toast').on('hidden.bs.toast', function () {
 	            $(this).remove();
-	        });
+			});
+			
+			setTimeout(() => {
+				location.reload();
+			}, 1500);
 		},
 		error: (xhr, ajaxOptions, thrownError) => {
 			console.error('Error in updating user location: ' + xhr.status + ' => ' + thrownError);
